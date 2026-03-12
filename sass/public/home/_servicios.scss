@@ -1,0 +1,38 @@
+.servicios {
+    border-bottom: 0.1rem solid rgba(23, 23, 23, .1);
+    &__contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        &__item {
+            width: calc(100% / 3);
+            box-sizing: border-box;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &--icon {
+                margin-right: 2rem;
+                color: rgb(163, 163, 163);
+
+                svg {
+                    width: 2.5rem;
+                }
+            }
+
+            &--text {
+                h3 {
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                    font-weight: 300;
+                    margin-bottom: .5rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                    color:rgba(23, 23, 23, .5);
+                    letter-spacing: .1rem;
+                }
+
+            }
+        }
+    }
+}
