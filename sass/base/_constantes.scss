@@ -13,6 +13,7 @@
     align-items: center;
     transition: all .3s;
     svg {
+        width: 1.5rem;
         margin-left: 1.5rem;
         display: block;
     }
@@ -32,6 +33,53 @@
         }
     }
 }
+
+
+.blockHeader {
+    &__box {
+        p {
+            color: rgb(163, 163, 163);
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4rem;
+        }
+        h2 {
+            color: rgb(10, 10, 10);
+            font-size: 3.6rem;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+        a {
+            color: rgb(82, 82, 82);
+            font-size: 1.3rem;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            svg {
+                width: 2.5rem;
+            }
+        }
+    }
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 
 // Padding
 
